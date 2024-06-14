@@ -54,13 +54,13 @@ export default function WeatherApp() {
             <div className="col">
               <div>
                 <p>Wind Speed</p>
-                <p className="wind-speed">{weatherData?.wind?.speed}</p>
+                <p>{weatherData?.wind?.speed}</p>
               </div>
             </div>
             <div className="col">
               <div>
                 <p>Humidity</p>
-                <p className="humidity">{weatherData?.main?.humidity}%</p>
+                <p>{weatherData?.main?.humidity}%</p>
               </div>
             </div>
           </div>
