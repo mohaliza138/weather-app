@@ -36,3 +36,76 @@
     transform: rotate(360deg);
   }
 }
+
+
+.search-engine {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+
+.search-engine input {
+  width: 70%;
+  height: 45px;
+  border: 1px solid;
+  border-radius: 8px;
+  padding: 2px 15px;
+  font-size: 16px;
+  outline: none;
+  background-color: #ffffff;
+  color: #555555;
+}
+
+.search-engine button {
+  background-color: #127897;
+  color: #fff;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  padding: 13px 15px;
+  font-size: 20px;
+}
+
+.city {
+  margin-bottom: 10px;
+}
+
+.loading {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #000;
+}
+
+.temp {
+  font-size: 64px;
+  color: #012738;
+  font-weight: bold;
+  text-align: center;
+}
+
+.description{
+  color: #012738;
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+
+.info{
+  margin-top: 20px;
+  padding: 0px 20px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  font-weight: bold;
+  text-align: center;
+}
+
+.col{
+  display: flex;
+  align-items: center;
+  line-height: 1px;
+}
